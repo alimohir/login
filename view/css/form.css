@@ -1,0 +1,164 @@
+.form-head {
+	margin: 0;
+	padding: 0 25% 0 0;
+	font-size: 1.8em;
+	text-align: center;
+	display: inline-flex;
+}
+
+.form-nav-row {
+	padding: 8px;
+
+}
+
+.captcha-img {
+	padding: 8px;
+	padding-block: 0px;
+	padding-inline: 0px;
+	border: #CCC 1px solid;
+	border-radius: 16px;
+	width: 23%;
+	height: 30px;
+	top: 10px;
+	position: relative;
+}
+
+.captcha-input {
+	padding: 8px;
+	padding-block: 3px;
+	padding-inline: 0px;
+	border: #CCC 1px solid;
+	border-radius: 16px;
+	width: 74%;
+	height: 25px;
+	top: 0;
+	position: relative;
+	text-align: center;
+}
+
+.btnLogin {
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 16px;
+	width: 100%;
+	border: 0px;
+	transition: 0.5s;
+	background-size: 200% auto;
+	background-image: linear-gradient(to right, #326bfa 0%, #40f5d7 51%, #2f61ff 100%);
+	margin: 25px 0px 5px 0px;
+	display: inline-block;
+}
+
+.btnRegister {
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 16px;
+	width: 100%;
+	border: 0px;
+	transition: 0.5s;
+	background-size: 200% auto;
+	background-image: linear-gradient(to right, #326bfa 0%, #40f5d7 51%, #2f61ff 100%);
+	margin: 10px 0px 5px 0px;
+	display: inline-block;
+	text-decoration: none;
+
+}
+
+.btnLogin:hover , .btnRegister:hover{
+	background-position: right center;
+}
+
+.error-info {
+	color: #FF0000;
+	margin-left: 10px;
+}
+
+.error-message {
+	padding: 7px 10px;
+	background: #fff1f2;
+	border: #ffd5da 1px solid;
+	color: #d6001c;
+	border-radius: 4px;
+	margin: 30px 10px 10px 10px;
+}
+
+.success-message {
+	padding: 7px 10px;
+	background: #fff1f2;
+	border: #ffd5da 1px solid;
+	color: #07d600;
+	border-radius: 4px;
+	margin: 30px 10px 10px 10px;
+}
+
+.form-link {
+	color: #1400f3;
+	text-decoration: none;
+}
+
+.btn .form-link {
+	border: #232323 1px solid;
+	color: #232323;
+	border-radius: 15px;
+	padding: 5px 20px;
+}
+
+.login-row {
+	margin: 10px 0px 0px;
+}
+
+.signup-icon {
+	max-width: 30px;
+	margin: 5px;
+}
+
+.dashboard {
+	background: none;
+	margin: 15px auto;
+	line-height: 1.8em;
+	color: #FFF;
+	border-radius: 4px;
+	padding: 30px;
+	max-width: 400px;
+	border: none;
+	text-align: center;
+}
+
+.header {
+   position: fixed;
+   right: 10px;
+   top: 0;
+   width: 100%;
+   background: none;
+   color: yellow;
+   text-align: right;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: none;
+   color: yellow;
+   text-align: center;
+}
+
+a.logout-button {
+	color: #09f;
+}
+.profile-photo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 440px) {
+	.form-container {
+		width: auto;
+		padding: 20px;
+	}
+	.form-container .field-column {
+		padding: 20px 10px 0px 10px;
+	}
+}
+

@@ -1,0 +1,102 @@
+.language-link{
+	padding: 5px 5px 5px 5px;	
+	background-color: #0f0;
+	float: left;
+	border-radius: 50%;
+	display: inline-flex;
+}
+
+.language-link a {
+	text-decoration: none;
+}
+
+.language-link-item {
+	text-decoration:none;
+	color: #232323;
+}
+
+.en-form-container {
+	background: #ffffff;
+	margin: 40px auto;
+	border-radius: 16px;
+	padding: 30px;
+	width: 306px;
+	border: #e5e6e9 1px solid;
+	text-align: center;
+}
+
+.fa-form-container {
+	background: #ffffff;
+	margin: 40px auto;
+	border-radius: 16px;
+	padding: 30px;
+	width: 306px;
+	border: #e5e6e9 1px solid;
+	text-align: center;
+}
+
+.en-form-container label {
+	margin: 10px 0px -10px 0px;
+	display: block;
+	text-align: left;
+}
+
+.fa-form-container label {
+	margin: 10px 0px -10px 0px;
+	display: block;
+	text-align: right;
+}
+
+.en-form-container .en-field-column {
+	padding: 0px 10px 0px 10px;
+	text-align: left;
+}
+
+.fa-form-container .fa-field-column {
+	padding: 0px 10px 0px 10px;
+	text-align: right;
+}
+
+.en-input-box {
+	padding: 8px;
+	border: #CCC 1px solid;
+	border-radius: 16px;
+	width: 100%;
+	text-align: left;
+}
+
+.fa-input-box {
+	padding: 8px;
+	border: #CCC 1px solid;
+	border-radius: 16px;
+	width: 100%;
+	text-align: right;
+}
+
+.en-password-toggle-icon {
+	position: relative;
+	top: -25px;
+	right: -10px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+  
+.fa-password-toggle-icon {
+	position: relative;
+	top: -25px;
+	right: 10px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.en-password-toggle-icon i , .fa-password-toggle-icon i {
+	font-size: 18px;
+	line-height: 1;
+	color: #333;
+	transition: color 0.3s ease-in-out;
+	margin-bottom: 20px;
+}
+  
+.en-password-toggle-icon i:hover , .fa-password-toggle-icon i:hover {
+	color: #000;
+}
